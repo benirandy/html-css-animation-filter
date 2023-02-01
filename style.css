@@ -4,10 +4,20 @@
     border: 1px solid red;
 }
 
+.ex-1-square:hover {
+    background-color: red;
+}
+
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+}
+
+.ex-2-square:active {
+    height: 400px;
+    width: 500px;
 }
 
 .ex-3-square {
@@ -16,10 +26,21 @@
     background: red;
 }
 
+.ex-3-square:hover {
+    background-color: red;
+    border: solid 10px gray;
+    border-radius: 50%;
+    transform: rotate(90deg)
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+}
+
+.ex-4-square:hover {
+    background-color: white;
 }
 
 .ex-5-square {
@@ -27,6 +48,17 @@
     width: 60px;
     height: 60px;
     background: red;
+}
+
+.ex-5-square:hover {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active {
+    width: 30px;
+    height: 30px;
 }
 
 .ex-6-img,
