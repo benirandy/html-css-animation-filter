@@ -26,3 +26,28 @@
     background-color: red;
     border-radius: 50%;
 }
+
+.ex-4-square {
+    transition: all 2s;
+    opacity: 2;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+.ex-5-square {
+    background-color: red;
+    transition: all 4s;
+}
+
+.ex-5-square:hover {
+    height: 100px;
+    width: 100px;
+}
+
+.ex-5-square:active {
+    height: 30px;
+    width: 30px;
+
+}
