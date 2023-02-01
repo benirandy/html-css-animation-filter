@@ -51,3 +51,127 @@
     width: 30px;
 
 }
+
+.ex-6-img {
+    transition: all 0.5;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(2);
+    transition-property: filter;
+    transition-duration: 0.5s;
+}
+
+.ex-7-img {
+    transition: all 4s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(2) contrast(200%);
+    transition-property: filter;
+    transition-duration: 4s;
+}
+
+.ex-8-img {
+    transition: all 4s;
+    border-radius: 60%;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(2) contrast(200%);
+    transition-property: filter;
+    transition-duration: 4s;
+}
+
+.ex-9-img {
+    transition: all 3s;
+    width: 300px;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(2) contrast(200%);
+    transition-property: filter;
+    transition-duration: 4s;
+    transform: scale(1.2);
+    border-radius: 50%;
+}
+
+.ex-10-icon {
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: trequartispin 1s linear;
+}
+
+@keyframes trequartispin {
+    80% {
+        transform: rotate(360deg);
+    }
+
+    90% {
+        transform: rotate(0);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: muoviTopWhite 3s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: muoviButtomWhite 3s linear;
+}
+
+@keyframes muoviTopWhite {
+    50% {
+        left: calc(100%-60px);
+    }
+}
+
+@keyframes muoviButtomWhite {
+    50% {
+        right: calc(100%+60px);
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: muoviTopWhiteCompleto 3s linear;
+}
+
+@keyframes muoviTopWhiteCompleto {
+    0% {
+        left: 10%;
+        top: -10;
+    }
+
+    20% {
+        left: 100%;
+        top: -10;
+    }
+
+    40% {
+        left: 100%;
+        top: 100%;
+    }
+
+    60% {
+        left: 100%;
+        top: 0;
+    }
+
+    80% {
+        left: calc(0%-20px);
+        top: -10;
+    }
+
+    100% {
+        left: 10%;
+        top: -10;
+    }
+}
