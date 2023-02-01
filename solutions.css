@@ -1,1 +1,13 @@
 /* questo è il file delle soluzioni che devo compilare */
+
+
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-2-square:active {
+    height: 100px;
+    width: 900px;
+}
