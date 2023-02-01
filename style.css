@@ -23,12 +23,8 @@
     background: red;
 }
 
-.ex-3-square:hover {
-    background-color: red;
-    border: solid 10px gray;
-    border-radius: 50%;
-    transform: rotate(90deg)
-}
+
+
 
 .ex-4-square {
     width: 100px;

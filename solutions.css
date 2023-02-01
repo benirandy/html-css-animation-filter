@@ -1,13 +1,28 @@
 /* questo è il file delle soluzioni che devo compilare */
+.ex-1-square:hover {
+    background-color: red;
+}
 
+.ex-1-square {
+    transition: 2s;
+}
 
 .ex-2-square {
-    width: 100px;
-    height: 100px;
     background: red;
+    transition: all 4s;
 }
 
 .ex-2-square:active {
     height: 100px;
     width: 900px;
+}
+
+.ex-3-square {
+    background-color: red;
+    transition: all 3s;
+}
+
+.ex-3-square:hover {
+    background-color: red;
+    border-radius: 50%;
 }
